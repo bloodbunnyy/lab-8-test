@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.list_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.listtask .status_update{
+    position: absolute;
+    right: 8px;
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.task-text {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.listtask {
+    /* Removed display: flex; to allow default block behavior */
+    padding: 3px 3px 0px 7px;
+    list-style: none;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+
